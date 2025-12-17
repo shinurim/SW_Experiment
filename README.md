@@ -110,6 +110,17 @@ OPENAI_API_KEY=your_openai_api_key
 * 최종 모델 선정:
   실험 결과를 바탕으로 프로젝트의 메인 임베딩 모델로 KURE-v1 채택
 
+<h3> 🤖 Prompt_N_Rag Experiment</h3>
+
+* 도메인 특화 문서 임베딩:
+  기존에 작성한 도메인 특화 문서를 위의 실험에서 선정된 메인 모델 KURE-v1으로 임베딩
+* 청킹 기준:
+  문서 분할 조건을 300 token 기준으로 자르고 30 token을 오버랩
+* 벡터 DB:
+  임베딩 한 결과를 Chroma DB에 저장
+* 프롬프트 설계:
+  역활 부여 및 자연어 질의를 SQL,Opinion,Main,Sub 형태로 변환할 수 있는 규칙 제시
+
 <h3>📋 Category Classification Analysis</h3> 
 
 * 카테고리 분류:
@@ -125,18 +136,7 @@ OPENAI_API_KEY=your_openai_api_key
 * 충성도 알고리즘의 구현법:
   패널이 질의에 응답한 수를 기준으로 응답한 수가 많으면 충성도를 높게, 적으면 충성도를 낮게 부여
 
-<h3> 🤖 Prompt_N_Rag Experiment</h3>
-
-* 도메인 특화 문서 임베딩:
-  기존에 작성한 도메인 특화 문서를 위의 실험에서 메인 임베딩 모델로 선정된 KURE-v1으로 임베딩
-* 청킹 기준:
-  문서 분할 조건을 300 token 기준으로 자르고 30 token을 오버랩
-* 벡터 DB:
-  임베딩 한 결과를 Chroma DB에 저장
-* 프롬프트 설계:
-  역활 부여 및 자연어 질의를 SQL,Opinion,Main,Sub 형태로 변환할 수 있는 규칙 제시
-
-<h3> 🧠 Embedding Aggregation Pipeline</h3>
+<h3> 🧠 Embedding Aggregation Pipeline(Colab ver.)</h3>
 
 * 입력 데이터:
   문항별 임베딩이 저장된 Pickle 파일 로드(uid × 문항 × embedding 구조)
