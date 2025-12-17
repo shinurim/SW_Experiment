@@ -58,6 +58,14 @@
   </tr>
 </table>
 
-<h2> TECH STACK </h2>
-
+<h2> 🛠 Tech Stack </h2> 
+* Python - 서버 런타임
+* Django - 백엔드 웹 프레임워크
+* React + Vite - 프론트엔드
+* OpenAI GPT-4o - LLM (메인 추론 모델)
+* Anthropic Claude Opus 4.1 - LLM (고성능 추론 모델)
+* NLP&AI KURE-v1 - 한국어 특화 벡터 임베딩
+* PostgreSQL + pgvector - 벡터 데이터베이스
+* Docker - 컨테이너 및 배포 환경
+* GitHub Actions - CI/CD 파이프라인
 <hr>
