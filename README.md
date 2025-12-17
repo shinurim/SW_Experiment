@@ -97,7 +97,7 @@ OPENAI_API_KEY=your_openai_api_key
 </code></pre>
 <hr>
 
-<h2>📌Key Features</h2>
+<h2>🔑Key Features</h2>
  <h3>📊 Embedding Performance Analysis</h3>
 
 * 모델 비교 실험:
@@ -137,3 +137,7 @@ OPENAI_API_KEY=your_openai_api_key
   오피니언 (opinion) 및 해시태그 규칙
   최종 출력 규칙
   출력예시 (FewShot) 제시
+<hr>
+
+<h2>License</h2>
+<p>본 프로젝트는 한성대학교 기업연계 SW캡스톤디자인 수업에서 진행되었습니다.</p>
