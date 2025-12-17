@@ -57,6 +57,7 @@
     </td>
   </tr>
 </table>
+<hr>
 
 <h2> 🛠 Tech Stack </h2> 
 
