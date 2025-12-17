@@ -99,7 +99,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 <h2>📌Key Features</h2>
 <hr>
- 📊 Embedding Performance Analysis
+ <h3><ㅗ Embedding Performance Analysis</h3>
 
 * 모델 비교 실험:
   범용 모델인 Dragon Embedding과 한국어 특화 모델 KURE-v1의 성능 비교 수행
@@ -112,7 +112,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 <hr>
 
-### 📋 Category Classification Analysis
+<h3>📋 Category Classification Analysis</h3> 
 
 * 카테고리 분류:
   카테고리 분류를 공적인 기준으로 하기 위해 zero-shot 분류 진행
@@ -120,8 +120,7 @@ OPENAI_API_KEY=your_openai_api_key
   대표적으로 분류되는 7가지 종류의 명시된 카테고리에 따라서 분류가 되었으며 질문에 따라서 카테고리가 여러가지 나올 수 있는 경우 보기에 대해서 재 분류를 실행했고, 결과적으로 각 메인 카테고리와 서브카테고리를 분류하는데 성공함
   
 <hr>
-
-### 🫡 Loyalty Algorithm
+<h3> 🫡 Loyalty Algorithm</h3>
 
 * 충성도 알고리즘의 필요성:
   사용자의 질의에 해당하는 패널이 필요 이상으로 많을 경우 평소 설문에 충실히 응답을 했던 패널을 추천해하 함
@@ -130,7 +129,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 <hr>
 
-### 🤖 Prompt_N_Rag Experiment
+<h3> 🤖 Prompt_N_Rag Experiment</h3>
 
 * chunk_size:
   문서 분할 조건을 300 token 기준으로 자르고 30 token을 오버랩 하였음
