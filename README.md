@@ -139,7 +139,7 @@ OPENAI_API_KEY=your_openai_api_key
   최종 출력 규칙
   출력예시 (FewShot) 제시
 
-  <h3> 🧠 User-Sub Embedding Aggregation Pipeline</h3>
+<h3> 🧠 User-Sub Embedding Aggregation Pipeline</h3>
 
 * 입력 데이터:
   문항별 임베딩이 저장된 Pickle 파일 로드(uid × 문항 × embedding 구조)
