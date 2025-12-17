@@ -136,7 +136,7 @@ OPENAI_API_KEY=your_openai_api_key
 * 프롬프트 설계:
   역활 부여 및 자연어 질의를 SQL,Opinion,Main,Sub 형태로 변환할 수 있는 규칙 제시
 
-<h3> 🧠 User-Sub Embedding Aggregation Pipeline</h3>
+<h3> 🧠 Embedding Aggregation Pipeline</h3>
 
 * 입력 데이터:
   문항별 임베딩이 저장된 Pickle 파일 로드(uid × 문항 × embedding 구조)
