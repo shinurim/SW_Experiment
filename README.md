@@ -74,7 +74,6 @@
   
 * PostgreSQL + pgvector - 벡터 데이터베이스
 
-* Docker - 컨테이너 및 배포 환경
 <hr>
 
 <h2> 🔗 Getting Started </h2>  
@@ -107,6 +106,12 @@ DB_PORT=5432
 <hr>
 
 <h2> Key Features </h2>
+## 📊 Embedding Performance Analysis
 
+* 모델 비교 실험: 범용 모델인 Dragon Embedding과 한국어 특화 모델 KURE-v1의 성능 비교 수행
+* 한국어 문맥 인식: KURE-v1이 Dragon 대비 한국어 쿼리 처리에서 더 높은 정확도를 보임
+* 검색 품질 평가: 동일한 질의에 대해 KURE-v1이 사용자 의도에 더 부합하는 문서를 상위에 노출
+* 최종 모델 선정: 실험 결과를 바탕으로 프로젝트의 메인 임베딩 모델로 KURE-v1 채택
+<hr>
 
 
