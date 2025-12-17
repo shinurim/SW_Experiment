@@ -59,6 +59,7 @@
 </table>
 
 <h2> 🛠 Tech Stack </h2> 
+
 * Python - 서버 런타임
 
 * Django - 백엔드 웹 프레임워크
