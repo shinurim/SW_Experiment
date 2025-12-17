@@ -78,3 +78,41 @@
 
 * GitHub Actions - CI/CD 파이프라인
 <hr>
+
+<h2> 🔗 Getting Started </h2>  
+
+### Installation
+
+```bash
+# 저장소 클론 (Clone Repository)
+git clone https://github.com/hansung-sw-capstone-2025-2/2025_8_B_Experiment.git
+cd 2025_8_B_Experiment
+
+# 가상환경 생성 및 활성화
+python -m venv venv
+
+# 의존성 설치
+pip install -r requirements.txt
+
+### Environment Variables
+# AI & LLM API Keys
+OPENAI_API_KEY=sk-proj-xxxx...
+ANTHROPIC_API_KEY=sk-ant-api03-xxxx...
+
+# Database (PostgreSQL + pgvector)
+DB_ENGINE=django.db.backends.postgresql
+DB_NAME=your_db_name
+DB_USER=postgres
+DB_PASSWORD=your_password
+DB_HOST=localhost
+DB_PORT=5432
+
+<hr>
+
+<h2> Key Features </h2>
+
+
+
+<hr>
+
+
