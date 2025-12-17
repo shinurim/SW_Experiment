@@ -81,8 +81,8 @@
 
 <h3> Installation </h3>
 <pre><code># 저장소 클론 (Clone Repository)
-git clone https://github.com/hansung-sw-capstone-2025-2/2025_8_B_Experiment.git
-cd 2025_8_B_Experiment
+git clone https://github.com/shinurim/SW_Experiment.git
+cd SW_Experiment
 </code></pre>
 <pre><code># 가상환경 생성 및 활성화
 python -m venv venv
