@@ -58,6 +58,6 @@
   </tr>
 </table>
 
-<h2> <TECH STACK> </h2>
+<h2> TECH STACK </h2>
 
 <hr>
