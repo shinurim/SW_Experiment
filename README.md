@@ -105,7 +105,7 @@ DB_PORT=5432
 <hr>
 
 <h2>Key Features</h2>
-
+<hr>
 ### 📊 Embedding Performance Analysis
 
 * 모델 비교 실험:
