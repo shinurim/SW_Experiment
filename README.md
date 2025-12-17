@@ -91,22 +91,15 @@ pip install -r requirements.txt
 </code></pre>
 
 <h3> Environment Variables</h3>
-<pre><code># AI & LLM API Keys
-OPENAI_API_KEY=Your_OpenAI_key
-ANTHROPIC_API_KEY=Your_ClaudeAI_key
-# Database (PostgreSQL + pgvector)
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=your_db_name
-DB_USER=postgres
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
+<pre><code># LLM API KEY
+ANTHROPIC_API_KEY=your_claude_api_key
+OPENAI_API_KEY=your_openai_api_key
 </code></pre>
 <hr>
 
-<h2>Key Features</h2>
+<h2>📌Key Features</h2>
 <hr>
-### 📊 Embedding Performance Analysis
+ 📊 Embedding Performance Analysis
 
 * 모델 비교 실험:
   범용 모델인 Dragon Embedding과 한국어 특화 모델 KURE-v1의 성능 비교 수행
