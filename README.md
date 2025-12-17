@@ -57,3 +57,8 @@
     </td>
   </tr>
 </table>
+
+<h2> DB Bridge</h2>
+<TECH STACK>
+
+<hr>
