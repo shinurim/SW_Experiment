@@ -98,8 +98,7 @@ OPENAI_API_KEY=your_openai_api_key
 <hr>
 
 <h2>📌Key Features</h2>
-<hr>
- <h3><ㅗ Embedding Performance Analysis</h3>
+ <h3>📊 Embedding Performance Analysis</h3>
 
 * 모델 비교 실험:
   범용 모델인 Dragon Embedding과 한국어 특화 모델 KURE-v1의 성능 비교 수행
@@ -110,8 +109,6 @@ OPENAI_API_KEY=your_openai_api_key
 * 최종 모델 선정:
   실험 결과를 바탕으로 프로젝트의 메인 임베딩 모델로 KURE-v1 채택
 
-<hr>
-
 <h3>📋 Category Classification Analysis</h3> 
 
 * 카테고리 분류:
@@ -119,15 +116,12 @@ OPENAI_API_KEY=your_openai_api_key
 * 실험 결과:
   대표적으로 분류되는 7가지 종류의 명시된 카테고리에 따라서 분류가 되었으며 질문에 따라서 카테고리가 여러가지 나올 수 있는 경우 보기에 대해서 재 분류를 실행했고, 결과적으로 각 메인 카테고리와 서브카테고리를 분류하는데 성공함
   
-<hr>
 <h3> 🫡 Loyalty Algorithm</h3>
 
 * 충성도 알고리즘의 필요성:
   사용자의 질의에 해당하는 패널이 필요 이상으로 많을 경우 평소 설문에 충실히 응답을 했던 패널을 추천해하 함
 * 충성도 알고리즘의 구현법:
   패널이 지금까지 질의에 응답한 수를 기준으로 응답한 수가 많으면 충성도가 높게, 응답한 수가 적으면 충성도가 낮게 나오도록 조정함
-
-<hr>
 
 <h3> 🤖 Prompt_N_Rag Experiment</h3>
 
