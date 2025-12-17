@@ -103,6 +103,7 @@ DB_USER=postgres
 DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
+
 <hr>
 
 <h2> Key Features </h2>
@@ -112,6 +113,7 @@ DB_PORT=5432
 * 한국어 문맥 인식: KURE-v1이 Dragon 대비 한국어 쿼리 처리에서 더 높은 정확도를 보임
 * 검색 품질 평가: 동일한 질의에 대해 KURE-v1이 사용자 의도에 더 부합하는 문서를 상위에 노출
 * 최종 모델 선정: 실험 결과를 바탕으로 프로젝트의 메인 임베딩 모델로 KURE-v1 채택
+
 <hr>
 
 
