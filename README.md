@@ -75,8 +75,6 @@
 * PostgreSQL + pgvector - 벡터 데이터베이스
 
 * Docker - 컨테이너 및 배포 환경
-
-* GitHub Actions - CI/CD 파이프라인
 <hr>
 
 <h2> 🔗 Getting Started </h2>  
@@ -106,13 +104,9 @@ DB_USER=postgres
 DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
-
 <hr>
 
 <h2> Key Features </h2>
 
-
-
-<hr>
 
 
