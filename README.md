@@ -79,8 +79,8 @@
 <h2> 🔗 Getting Started </h2>  
 
 ### Installation
+<code>
 
-```bash
 # 저장소 클론 (Clone Repository)
 git clone https://github.com/hansung-sw-capstone-2025-2/2025_8_B_Experiment.git
 cd 2025_8_B_Experiment
@@ -103,7 +103,7 @@ DB_USER=postgres
 DB_PASSWORD=your_password
 DB_HOST=localhost
 DB_PORT=5432
-
+</code>
 <hr>
 
 <h2>Key Features</h2>
