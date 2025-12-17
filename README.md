@@ -106,8 +106,9 @@ DB_PORT=5432
 
 <hr>
 
-<h2> Key Features </h2>
-## 📊 Embedding Performance Analysis
+<h2>Key Features</h2>
+
+### 📊 Embedding Performance Analysis
 
 * 모델 비교 실험: 범용 모델인 Dragon Embedding과 한국어 특화 모델 KURE-v1의 성능 비교 수행
 * 한국어 문맥 인식: KURE-v1이 Dragon 대비 한국어 쿼리 처리에서 더 높은 정확도를 보임
@@ -115,5 +116,4 @@ DB_PORT=5432
 * 최종 모델 선정: 실험 결과를 바탕으로 프로젝트의 메인 임베딩 모델로 KURE-v1 채택
 
 <hr>
-
 
